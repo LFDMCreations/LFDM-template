@@ -19,7 +19,6 @@ const getData = axios.create({
   method: 'post',
   headers: {
     'Content-Type': 'application/json',
-    //"Sec-Fetch-Site": "cross-site",
     'Access-Control-Allow-Origin': '*',
     // 'Access-Control-Allow-Methods': 'GET, POST, DELETE',
     // 'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token',
